@@ -285,7 +285,7 @@ function showControls()
   love.graphics.print("T = Toggle Control Info", text_x, 45)
   love.graphics.print("A = Move Left", text_x, 75)
   love.graphics.print("D = Move Right", text_x, 105)
-  love.graphics.print("Right Click = Shoot", text_x, 135)
+  love.graphics.print("Left Click = Shoot", text_x, 135)
   love.graphics.print("Space = Jump", text_x, 165)
   love.graphics.print("Space + Space = Double Jump", text_x, 195)
 end
