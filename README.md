@@ -11,7 +11,7 @@ Don't Let the Tengu Faces Enter the Shrine.
 | T | Toggle Control Info  |
 | A  | Move Left  |
 | D  | Move Right  |
-| Right Click  | Shoot  |
+| Left Click  | Shoot  |
 | Space  | Jump  |
 | Space + Space  | Double Jump  |
 | R  | Restart Game (If Game Over)  |
