@@ -1,4 +1,4 @@
-![alt text](https://github.com/FR0ST1N/Shrine/blob/master/banner.png "Shrine")
+![Shrine](https://github.com/FR0ST1N/Shrine/blob/master/banner.png "Shrine")
 
 ## How To Play
 
@@ -18,13 +18,14 @@ Don't Let the Tengu Faces Enter the Shrine.
 
 ## Download
 
-Windows Version of the Game is Available in the [Repository](https://github.com/FR0ST1N/Shrine/tree/master/Windows).
+* [GitHub](https://github.com/FR0ST1N/Shrine/releases)
+* [itch.io](https://fr0st1n.itch.io/shrine)
 
 ## Made With
 
-* Lua 5.1.5
-* LÖVE 0.10.2 (Super Toast)
+* [LÖVE 0.10.2 (Super Toast)](https://bitbucket.org/rude/love/downloads/)
+* [push](https://github.com/Ulydev/push)
 
 ## License
 
-FR0ST1N/Shrine is licensed under the [MIT License](https://github.com/FR0ST1N/Shrine/blob/master/LICENSE).
+[**MIT**](https://github.com/FR0ST1N/Shrine/blob/master/LICENSE)

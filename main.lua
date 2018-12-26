@@ -1,3 +1,5 @@
+push = require "push"
+
 player = {
   sx = 0.4,
   sy = 0.4,
@@ -33,7 +35,11 @@ enemies = {
 }
 
 function love.load()
-  love.window.setMode(1280, 720, {resizable=false}) -- Window
+  -- Set Window Size
+  gameWidth, gameHeight = 1280, 720
+  windowWidth, windowHeight = love.window.getDesktopDimensions()
+  windowWidth, windowHeight = windowWidth*.7, windowHeight*.7
+  push:setupScreen(windowWidth, windowHeight, windowWidth, windowHeight, {fullscreen = false})
   love.window.setTitle("Shrine") -- Set Game Title
   -- Set Window Icon
   icon = love.graphics.newImage("Assets/Images/icon32.png");
@@ -151,6 +157,7 @@ function love.update(dt)
 end
 
 function love.draw()
+  push:start()
   love.graphics.setColor(255, 255, 255)
   love.graphics.draw(background, 0, 0, 0, love.graphics.getWidth() / background:getWidth(), love.graphics.getHeight() / background:getHeight()) -- Set Background
   if player.alive == 0 then
@@ -180,6 +187,7 @@ function love.draw()
   if player.toggle_control == 0 then
     showControls()
   end
+  push:finish()
 end
 
 -- Function to Check Collision
