@@ -2,7 +2,7 @@
 
 ## How To Play
 
-Don't Let the Tengu Faces Enter the Shrine.
+Don't Let The Tengu Faces Enter The Shrine.
 
 ### Controls
 
